@@ -1,0 +1,69 @@
+header {
+    background-color: #232f3e;
+    color: #fff;
+}
+
+.logo img {
+    height: 1%;
+    width: 10%;
+
+}
+
+.icon {
+    color: var(--white)
+}
+
+.formpesquisa {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.formpesquisa {
+    border: solid 3px;
+}
+
+.formpesquisa  select,
+.formpesquisa input,
+.formpesquisa button {
+    height: 40%;
+    border: none;
+    outline: none;
+
+}
+
+.formpesquisa select {
+    background-color: #dadada;
+    padding-left: 10px;
+    width: 35%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.formpesquisa input {
+    width: 48%
+
+}
+
+.formpesquisa button {
+    padding: 0 10px;
+    width: 15%;
+    float: right;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+@media (max-width: 760px) {
+    .formpesquisa select {
+        display: none;
+    }
+}
+
+.formpesquisa input {
+    width: 85%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+}
+
