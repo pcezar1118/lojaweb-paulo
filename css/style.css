@@ -113,3 +113,16 @@ section {
     color: var(--orange);
     text-decoration: underline;
 }
+
+.flex-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.footer {
+    text-decoration: none;
+    align-items: stretch;
+}
+
