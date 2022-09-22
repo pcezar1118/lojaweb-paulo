@@ -12,9 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
 
-    <script src= <script src='https://kit.fontawesome.com/1c338709b4.js' crossorigin='anonymous'></script>
-    <!--Get your code at fontawesome.com-->"></script>
-    
     <link rel="stylesheet" href="/css/root.css">
     <link rel="stylesheet" href="/css/default.css">
     <link rel="stylesheet" href="/css/header.css">
@@ -39,7 +36,7 @@
                 </div>
             </div>
             <div class="pesquisa col-4">
-                <form action="" class="formPerquisa">
+                <form action="" class="formPesquisa">
                     <label for="selectTipo"></label>
                     <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
                         <option value="0" selected>
@@ -77,11 +74,10 @@
                 <span>e Pedidos</span>
             </div>
             <div class="carrinho col-1">
-                <button type="submit" title="carrinho de compras">
                 <span>0</span>
-                <a href=""><i class="fa-brands fa-docker"></i></a>
-                <span>CAR</span>
-            </button>
+                <span class="car-icon">
+                    <i class="fab fa-opencart"></i>
+                </span>
             </div>
         </header>
 
@@ -211,8 +207,35 @@
                 </div>
             </div>
 
-            <div class="col-12 bg-white">
-                carousel Produtos
+            <div class="col-12 bg-white produto-categoria-carousel">
+                <h2>
+                    Navegue por categoria
+                    <a href="">
+                        Veja todas as ofertas
+                    </a>
+                </h2>
+                <div class="produto-categoria-carousel-item d-flex justify-content-space-around align-items-center">
+                    <div>
+                        <img src="https://picsum.photos/200/200" alt="produtos" height="200">
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/200" alt="produtos" height="200">
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/200" alt="produtos" height="200">
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/200" alt="produtos" height="200">
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/200" alt="produtos" height="200">
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/200" alt="produtos" height="200">
+                    </div>
+                </div>
+                <a class="setas setas-left" href=""><i class="fas fa-chevron-left"></i></a>
+                <a class="setas setas-right" href=""><i class="fas fa-chevron-right"></i></a>
             </div>
 
             <div class="produtos col-12">
